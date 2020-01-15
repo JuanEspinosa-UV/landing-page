@@ -1,0 +1,24 @@
+.navbar {
+    background-color: #510707;
+    padding: 1em 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+#navbarTitle{
+    font-size: 2em;
+    color: white;
+}
+
+#navbarNav a{
+    font-size: 1.2em;
+    color: white;
+}
+
+#navbarNav a:hover{
+    color: gray;
+}
+
+#navButton{
+    background-color: #B82121;
+}
