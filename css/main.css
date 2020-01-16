@@ -115,7 +115,8 @@ span {
 }
 
 .masthead{
-    padding: 9em 2em;
+    padding-top: 9em;
+    padding-bottom: 2em;
     font-family: 'Montserrat', sans-serif;
     background-color: #C63AF5;
 }
@@ -132,7 +133,7 @@ span {
 @media (min-width: 992px) {
     .masthead {
       padding-top: calc(6rem + 104px);
-      padding-bottom: 6rem;
+      padding-bottom: 3rem;
     }
     .masthead .masthead-heading {
       font-size: 4rem;
