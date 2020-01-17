@@ -254,3 +254,13 @@ body{
   background-color: #fff;
   margin: 0px 20px;
 }
+
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #C63AF5;
+  color: #fff;
+}
+.copyright {
+  background-color: #340444;
+}
