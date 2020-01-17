@@ -233,3 +233,23 @@ body{
   html {
     scroll-behavior: smooth;
   }
+
+  #about {
+  padding: 4rem 0;
+  background-color: #C63AF5;
+}
+.page-section .page-section-heading {
+  font-size: 2.25rem;
+  line-height: 2rem;
+}
+@media (min-width: 992px) {
+  .page-section .page-section-heading {
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+}
+
+#about .divider-custom.divider-light .divider-custom-line {
+  background-color: #fff;
+  margin: 0px 20px;
+}

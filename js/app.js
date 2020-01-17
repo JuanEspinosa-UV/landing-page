@@ -75,7 +75,6 @@ for(var i = 0; i < items.length; i++){
                     <!-- Portfolio Modal - Image -->
                     <img class="img-fluid rounded mb-5" src="resources/img/${items[i].name.toLocaleLowerCase()}.jpg" alt="">
                     <!-- Portfolio Modal - Text -->
-                    <p class="text-justify">Type: ${items[i].type}</p>
                     <p class="mb-5 text-justify">${items[i].desc}</p>
                     <button class="btn modalButton" href="#" data-dismiss="modal">
                       <i class="fas fa-times fa-fw"></i>
