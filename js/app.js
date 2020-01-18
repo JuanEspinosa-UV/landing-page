@@ -73,7 +73,7 @@ for(var i = 0; i < items.length; i++){
                     <div class="divider-custom-line"></div>
                     </div>
                     <!-- Portfolio Modal - Image -->
-                    <img class="img-fluid rounded mb-5" src="img/${items[i].name.toLocaleLowerCase()}.JPG" alt="">
+                    <img class="img-fluid rounded mb-5" src="img/${items[i].name}.PNG" alt="">
                     <!-- Portfolio Modal - Text -->
                     <p class="mb-5 text-justify">${items[i].desc}</p>
                     <button class="btn modalButton" href="#" data-dismiss="modal">
