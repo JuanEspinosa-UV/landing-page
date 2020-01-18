@@ -44,7 +44,7 @@ for(var i = 0; i < items.length; i++){
                         <i class="fas fa-plus fa-3x"></i>
                     </div>
                 </div>
-                <img id="portfolio" class="img-fluid rounded-lg" src="resources/img/${items[i].name}.jpg" alt="${items[i].name}">
+                <img id="portfolio" class="img-fluid rounded-lg" src="img/${items[i].name}.JPG" alt="${items[i].name}">
             </div>
         </div>
 `);
@@ -73,7 +73,7 @@ for(var i = 0; i < items.length; i++){
                     <div class="divider-custom-line"></div>
                     </div>
                     <!-- Portfolio Modal - Image -->
-                    <img class="img-fluid rounded mb-5" src="resources/img/${items[i].name.toLocaleLowerCase()}.jpg" alt="">
+                    <img class="img-fluid rounded mb-5" src="img/${items[i].name.toLocaleLowerCase()}.JPG" alt="">
                     <!-- Portfolio Modal - Text -->
                     <p class="mb-5 text-justify">${items[i].desc}</p>
                     <button class="btn modalButton" href="#" data-dismiss="modal">
