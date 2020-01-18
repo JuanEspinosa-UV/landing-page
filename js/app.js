@@ -44,7 +44,7 @@ for(var i = 0; i < items.length; i++){
                         <i class="fas fa-plus fa-3x"></i>
                     </div>
                 </div>
-                <img id="portfolio" class="img-fluid rounded-lg" src="resources/img/${items[i].name.toLocaleLowerCase()}.jpg" alt="${items[i].name}">
+                <img id="portfolio" class="img-fluid rounded-lg" src="resources/img/${items[i].name}.jpg" alt="${items[i].name}">
             </div>
         </div>
 `);
